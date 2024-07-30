@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class U 
+{
+	public static void main(String[] args) 
+	{
+		int a,b ,inc;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter values");
+		int a=sc.nextInt();
+		System.out.println("Enter values");
+		int b= sc.nextInt();
+		System.out.println("Enter values");
+		int inc=sc.nextInt();
+
+		
+		for(int l = a; l<= b; l += inc){
+			System.out.println(l);
+
+	}
+}
+}
